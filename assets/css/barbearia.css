@@ -1,0 +1,116 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.banner{	width:100%;
+	margin-top: 50px;
+	border: 1px solid black;
+}
+
+.sobre{
+	width: 940px;
+    margin: 0 auto;
+	background-color: #88888896;
+	padding: 3em 0;
+}
+.titulo {
+	text-align: center;
+	font-size: 2rem;
+	font-weight: 400;
+	margin: 0 0 1em;
+}
+
+.sobre p {
+	margin: 0 0 1em;
+	text-align: center;
+}
+
+#missao {
+	font-size: 20px
+}
+
+.mapa-largura{
+	background:linear-gradient(#fefefe,#888888);
+
+}
+.mapa{
+	padding: 3em 0;
+	text-align: center;
+	width: 940px;
+    margin: 0 auto;
+}
+.mapa .p-mapa{
+	margin-bottom: 1em;
+	font-size: 19px;
+}
+.beneficios {
+	padding: 2em 0;
+	background-color: #888888;
+	
+}
+
+.beneficios .conteudo-beneficios .lista-beneficios {
+	width: 40%;
+	list-style: disc;
+	display: inline-block;
+	vertical-align: top;
+}
+.beneficios .conteudo-beneficios .lista-beneficios .itens:first-child {
+font-weight: bold;
+}
+.beneficios .conteudo-beneficios .lista-beneficios .itens{
+	line-height: 1.5em;
+}
+.imagem-beneficios {
+	width: 60%;
+	opacity: 1;
+	transition: 500ms ease-in-out;
+	box-shadow: 10px 10px 5px black;
+}
+.imagem-beneficios:hover {
+	opacity: 0.8;
+}
+.conteudo-beneficios{
+	width: 640px;
+	margin: 0 auto;
+}
+
+.video{
+	background:linear-gradient(to top,#fefefe,#888888);
+	text-align: center;
+	padding: 5rem;
+
+}
+
+@media screen and (max-width:1000px){
+
+	.sobre,.mapa,.video,.conteudo-beneficios{
+		width: auto;
+	}
+	*{
+		padding: 1em 0;
+		margin: 0 5px;
+	}
+	.mapa{
+		margin: 0 5px;
+		
+	}
+	
+	.video{
+		padding: 0;
+	}
+	.video-ytb{
+		width: 95%;
+	}
+	.beneficios .conteudo-beneficios .lista-beneficios {
+		margin-left:7%;
+		display: block;
+		width: 100%;
+	}
+	.beneficios .conteudo-beneficios .imagem-beneficios {
+		margin: auto;
+		display: block;
+		width: 95%;
+		box-shadow: none;
+	}
+}

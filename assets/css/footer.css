@@ -1,0 +1,19 @@
+footer{
+    
+    text-align: center;
+    background-image: url('../bg.jpg');
+
+    padding: 40px 0;
+}
+footer p{
+color: white;    
+font-size: 13px;
+margin-top: 20px;
+}
+
+@media screen and (max-width:1000px){
+
+    footer img{
+        width: 130px;
+    }
+}

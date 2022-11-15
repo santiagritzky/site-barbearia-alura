@@ -1,0 +1,65 @@
+.display-block{
+    display: block;
+}
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+main form{
+    margin:40px 0;
+}
+
+form .descri-form,.text-form{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+form .form-input,.msg-form{
+    margin-bottom: 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+form .form-button{
+    padding: 15px 0px; 
+    width: 40%;
+    background-color:orange;
+    border: 1px  solid transparent;
+    box-sizing: border-box;
+    font-size:18px;
+    color: white;
+    transition: 100ms ease-in-out;
+}
+form .form-button:hover{
+    cursor: pointer;
+    transform: scale(1.01) ;
+    background-color:darkorange;
+
+}
+form .checkbox{
+    margin: 20px 0;
+}
+form .field{
+    border: none;
+}
+.tabela{
+    margin: 40px 0;
+}
+.tabela thead{
+    background-color: #555555;
+    color: white;
+}
+.tabela tbody tr td,.tabela thead th{
+border: 1px solid black;
+padding: 8px 5px;   
+}
+
+@media screen and (max-width:1000px){
+    main form,.tabela{
+      padding: 20px;
+    }
+    main{
+        width: auto;
+    }
+    form .form-input,.msg-form,form .form-button,.tabela{
+        width: 100%;
+    }
+}
